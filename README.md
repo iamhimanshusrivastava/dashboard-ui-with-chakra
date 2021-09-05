@@ -1,3 +1,10 @@
+# The Rise Dashboard - Next.js + Chakra UI
+A dashboard made up on the Next.js platform using Chakra UI.
+
+It's UI is inspired by [The Rise Dashboard](https://dribbble.com/shots/15640240-The-Rise-dashboard-activity) by [Taras Migulko](https://dribbble.com/ui_migulko).
+
+[Live Preview](https://the-rise-dashboard-with-chakraui.vercel.app).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
