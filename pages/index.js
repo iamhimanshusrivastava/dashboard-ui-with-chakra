@@ -1,44 +1,6 @@
 import { Fragment } from "react";
 import Head from "next/head";
 
-import {
-  Flex,
-  Heading,
-  Avatar,
-  AvatarGroup,
-  Text,
-  Icon,
-  IconButton,
-  Table,
-  Thead,
-  Tbody,
-  Tr,
-  Th,
-  Td,
-  Divider,
-  Link,
-  Box,
-  Button,
-  Input,
-  InputGroup,
-  InputLeftElement,
-} from "@chakra-ui/react";
-
-import {
-  FiHome,
-  FiPieChart,
-  FiDollarSign,
-  FiBox,
-  FiCalendar,
-  FiChevronDown,
-  FiChevronUp,
-  FiPlus,
-  FiCreditCard,
-  FiSearch,
-  FiBell,
-  FiClock,
-} from "react-icons/fi";
-
 import Container from "../components/UI/Container";
 import SideBar from "../components/UI/SideBar";
 import MainSection from "../components/UI/MainSection";
