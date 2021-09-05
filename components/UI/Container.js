@@ -2,7 +2,12 @@ import { Flex } from "@chakra-ui/react";
 
 const Container = (props) => {
   return (
-    <Flex h="100vh" flexDir="row" overflow="hidden" maxW="2000px">
+    <Flex
+      h={[null, null, "100vh"]}
+      flexDir={["column", "column", "row"]}
+      overflow="hidden"
+      maxW="2000px"
+    >
       {props.children}
     </Flex>
   );

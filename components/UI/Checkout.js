@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 import {
     Avatar,
@@ -12,16 +12,22 @@ import {
     Icon,
     IconButton,
     Heading,
-    Text
-} from '@chakra-ui/react';
+    Text,
+} from "@chakra-ui/react";
 
-import { FiBell, FiCreditCard, FiDollarSign, FiPlus, FiSearch } from 'react-icons/fi';
+import {
+    FiBell,
+    FiCreditCard,
+    FiDollarSign,
+    FiPlus,
+    FiSearch,
+} from "react-icons/fi";
 
 const Checkout = () => {
     const [value, setValue] = useState(1);
 
     return (
-        <Flex w="35%" bgColor="#F5F5F5" p="3%" flexDir="column" overflow="auto">
+        <Flex w={["100", "100", "35%"]} minW={[null, null, "300px", "300px", "400px"]} bgColor="#F5F5F5" p="3%" flexDir="column" overflow="auto">
             <Flex alignContent="center">
                 <InputGroup
                     bgColor="#fff"
